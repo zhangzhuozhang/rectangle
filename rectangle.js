@@ -4,7 +4,9 @@ $(function(){
       $btnCal = $('#calculate'),
       $perimeter=$('#perimeter'),
       $area=$('#area');
-$btnCal.click(function(){
+ $forkMeGH.show('https://github.com/zhangzhuozhang/rectangle');
+   $bszPageFooter.show('body');
+  $btnCal.click(function(){
   var w=Number($width.val()),
      h=Number($height.val());
   var p=Math.round(2*(w+h)*Math.pow(10,4))/Math.pow(10,4);
